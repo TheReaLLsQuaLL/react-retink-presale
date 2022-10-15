@@ -1,0 +1,28 @@
+.blogcard {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 15px;
+  padding: 0;
+}
+.blogcard-img {
+  height: 144px;
+}
+.blogcard-img img {
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.blogcard-title p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #393939;
+  border-bottom: 3px solid #754de8;
+  width: fit-content;
+  padding: 4px 0;
+}
+.blogcard-desc p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}

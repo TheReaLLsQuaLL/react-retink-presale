@@ -1,0 +1,76 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin-top: 116px;
+}
+.footer-top {
+  background-color: #d0d0d0;
+  display: flex;
+  gap: 360px;
+  padding: 74px 144px 88px 90px;
+  justify-content: space-between;
+}
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer-top-left-list table tr td {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  color: #131313;
+  padding-bottom: 20px;
+  padding-right: 86px;
+}
+.footer-top-right {
+  display: flex;
+  flex-direction: column;
+}
+.footer-top-right-contact-title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.0046em;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.footer-top-right-contact-social-logos img {
+  margin-right: 30px;
+}
+.footer-bot {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  gap: 476px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-copyright-right {
+  display: flex;
+  gap: 32px;
+}
+
+#facebook {
+  background-color: blue;
+}
+#youtube {
+  background-color: red;
+}
+#instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}

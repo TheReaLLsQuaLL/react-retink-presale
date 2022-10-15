@@ -1,0 +1,50 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 900px;
+  margin-top: 86px;
+  gap: 96px;
+  margin-bottom: 108px;
+}
+.blog-top-ordered {
+  display: flex;
+  flex-direction: column;
+
+  gap: 84px;
+}
+.blog-top-ordered li {
+  list-style: none;
+}
+.blog-top-ordered-first {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.blog-top-ordered-first p {
+  font-weight: 600;
+  font-size: 28px;
+  color: #7e1cfe;
+  margin-top: 0;
+}
+.blog-top-ordered-second {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.blog-top-ordered-second p {
+  font-weight: 600;
+  font-size: 28px;
+  color: #7e1cfe;
+  margin-top: 0;
+}
+.blog-bot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
